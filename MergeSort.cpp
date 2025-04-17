@@ -6,5 +6,12 @@ int n;
 
 void input()
 {
-    
+    while (true)
+    {
+        cout << "Masukkan jumlah element array: ";
+        cin >> n;
+        if (n <= 20)
+            break;
+        cout << "\nMmaksimal panjnag array adalah 20" << endl;
+    }
 }
