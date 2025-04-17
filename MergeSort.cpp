@@ -72,4 +72,5 @@ void mergeSort (int low, int high)
 void output()
 {
     cout << "\nData setelah diurutkan (Merge Sort): ";
+    for (int i = 0; i < n; i++)
 }
